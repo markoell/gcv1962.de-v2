@@ -1,0 +1,1 @@
+docker-compose -p "gcv-local" up -d --build
