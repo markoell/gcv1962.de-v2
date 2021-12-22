@@ -1,0 +1,13 @@
+title: Gruppe
+preset: pages
+pages: false
+
+fields:
+  intro:
+    label: Info
+    type: info
+    theme: negative
+    text: Dieses Template wird abgeschafft
+  text:
+    type: textarea
+    size: small

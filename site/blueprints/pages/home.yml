@@ -1,0 +1,21 @@
+title: 
+  en: Home
+  de: Start
+preset: pages
+icon: 📜
+options:
+  url: false
+  status: false
+  delete: false
+drafts:
+  headline:
+    en: Draft
+    de: Entwurf
+unlisted:
+  headline:
+    en: Unlisted
+    de: Ungelisted
+listed:
+  headline: 
+    en: Published
+    de: Öffentlich

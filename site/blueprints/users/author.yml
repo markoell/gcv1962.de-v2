@@ -1,0 +1,57 @@
+title: 
+  en: Author
+  de: Autor
+description: 
+  en: The author can edit all pages
+  de: Der Autor kann alle Seiten bearbeiten, löschen, sowie neue erstellen. Er darf keine anderen Benutzer verwalten!
+
+permissions:
+  site:
+    update: false
+  users: false
+  user:
+    changeRole: false
+
+columns:
+  left:
+    width: 1/2
+    fields:
+      street:
+        label: 
+          en: Street
+          de: Straße
+        type: text
+      zip:
+        label: 
+          en: ZIP
+          de: PLZ
+        type: text
+        width: 1/4
+      city:
+        label: 
+          en: City
+          de: Stadt
+        type: text
+        width: 3/4
+      country:
+        label: 
+          en: Country
+          de: Land
+        type: text
+
+  right:
+    width: 1/2
+    fields:
+      website:
+        label: Website
+        type: url
+      twitter:
+        label: Twitter
+        type: text
+        icon: twitter
+        placeholder: @username
+      instagram:
+        label: Instagram
+        type: text
+        icon: instagram
+        placeholder: username
