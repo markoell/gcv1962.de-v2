@@ -1,0 +1,30 @@
+{
+  "name": "gcv1962.de",
+  "version": "2.0.0",
+  "description": "Website of \"Gundelsheimer Carneval Verein 1962 e.V.\": \"gcv1962.de\"",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markoell/gcv1962.de-v2.git"
+  },
+  "keywords": [
+    "website",
+    "carneval",
+    "gcv1962",
+    "php",
+    "html",
+    "kirby",
+    "cms"
+  ],
+  "author": "Marco Köllner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markoell/gcv1962.de-v2/issues"
+  },
+  "homepage": "https://github.com/markoell/gcv1962.de-v2#readme"
+}

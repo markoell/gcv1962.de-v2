@@ -7,18 +7,18 @@
     "authors": [
         {
             "name": "Marco Köllner",
-            "email": "???",
+            "email": "test@gcv1962.de",
             "homepage": "https://gcv1962.de"
         }
     ],
     "support": {
-        "email": "???",
+        "email": "support@gcv1962.de",
         "issues": "https://github.com/markoell/gcv1962.de/issues",
         "source": "https://github.com/markoell/gcv1962.de"
     },
     "require": {
         "php": ">=7.3.0 <8.1.0",
-        "getkirby/cms": "^3.5"
+        "getkirby/cms": "^3.6"
     },
     "scripts": {
         "start": [
