@@ -27,6 +27,13 @@ columns:
     width: 1/2
     sections:
       published:
-        headline: Seiten
+        headline: Weitere Seiten
         type: pages
         status: listed
+      meta:
+        type: fields
+        fields:
+          tagline:
+            label: Slogan
+            type: text
+            max: 64
