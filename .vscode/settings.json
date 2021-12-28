@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.txt": "md"
+    },
+    "intelephense.environment.documentRoot": "./"
+}
