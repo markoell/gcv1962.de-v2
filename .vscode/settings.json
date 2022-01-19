@@ -2,5 +2,7 @@
     "files.associations": {
         "*.txt": "md"
     },
-    "intelephense.environment.documentRoot": "./"
+    "intelephense.environment.documentRoot": "./",
+"editor.detectIndentation": false,
+"editor.tabSize": 2
 }
