@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $titleTag ?></title>
     <meta name="description" content="<?= $metaDescription ?>">
+
+    <?= css('assets/css/style.css') ?>
 </head>
 
 <body>

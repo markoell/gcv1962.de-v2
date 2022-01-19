@@ -6,7 +6,9 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "test"
+    "postinstall": "sh ./scripts/Linux/copy_npm_assets.sh",
+    "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/style.css --jit --purge './site/**/*.php' -w",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/style.css --jit --purge './site/**/*.php' -m"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/markoell/gcv1962.de-v2/issues"
   },
-  "homepage": "https://github.com/markoell/gcv1962.de-v2#readme"
+  "homepage": "https://github.com/markoell/gcv1962.de-v2#readme",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
 }
